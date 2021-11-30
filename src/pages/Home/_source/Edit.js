@@ -22,6 +22,18 @@ const Edit = ({add}) => {
     }
 
     const addHandle = () => {
+        if(!note){
+            window.alert('请输入事件')
+            return
+        }
+        if(!date){
+            window.alert('请选择日期')
+            return
+        }
+        if(!time){
+            window.alert('请选择时间')
+            return
+        }
         add(function(prevData) {
             return [
                 {
