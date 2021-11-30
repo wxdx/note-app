@@ -7,6 +7,6 @@
 ### `yarn start`
 
 
-[在线demo](https://wxdx.github.io/vue-x6-demo/index.html)
+[在线demo](https://wxdx.github.io/note-app/index.html)
 
 
